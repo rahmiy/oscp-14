@@ -48,4 +48,11 @@ Checks
       Full TCP Scan
         nmap -sC -sV -p- -vv -oA full 192.168.1.1
         
+        
+      -p- scans 1-65535 so you can omit 1-65535.
+
+I use this one a lot in general
+
+nmap -p 445 -vv --script=smb-vuln-cve2009-3103.nse,smb-vuln-ms06-025.nse,smb-vuln-ms07-029.nse,smb-vuln-ms08-067.nse,smb-vuln-ms10-054.nse,smb-vuln-ms10-061.nse,smb-vuln-ms17-010.nse 192.158.1.1
+        
        
