@@ -61,5 +61,15 @@ Checks
      nmap -sU -Pn 192.168.1.1 -vv
      nmap -vvv -sn 201.210.67.0/24
      nmap -sP 192.168.1.1-200
+     
+     First locate the nmap scripts.
+     # locate *.nse
+     The syntax for running a script is:
+     # nmap --script scriptname 192.168.1.101
+     
+     Can be run by separating the script with a comma
+     nmap --script scriptone.nse,sciprt2.nse,script3.nse 192.168.1.1
+     
+     
      ...
        
