@@ -8,6 +8,10 @@ Checks
 [ ] Enumeration
 
 [ ] Exploitation
+
 [ ] Privilege Escalation
+
 [ ] Flags
+
 [ ] Post Exploitation
+
