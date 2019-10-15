@@ -59,5 +59,7 @@ Checks
      nmap -sS -Pn 192.168.1.1 -vvv
      nmap -A -Pn 192.168.1.1 -vv
      nmap -sU -Pn 192.168.1.1 -vv
+     nmap -vvv -sn 201.210.67.0/24
+     nmap -sP 192.168.1.1-200
      ...
        
