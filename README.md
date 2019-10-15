@@ -48,6 +48,4 @@ Checks
       Full TCP Scan
         nmap -sC -sV -p- -vv -oA full 192.168.1.1
         
-        
-        ...
-    
+       
